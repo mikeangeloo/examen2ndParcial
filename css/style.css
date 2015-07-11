@@ -1,0 +1,29 @@
+td{
+	width: auto;
+	text-align: justify;
+	
+}
+tr{
+	text-align: justify;
+}
+
+
+tr:nth-child(odd){
+  background: darkblue;
+  color:white;
+  
+ 
+  
+}
+
+ tr:nth-child(even){
+  color:white;
+ background: gray;
+
+}
+
+ tr:nth-child(4n){
+  color:white;
+ background: brown;
+
+}
